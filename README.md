@@ -11,15 +11,13 @@ The application namespace is created. It is a simple JavaScript namespace that t
 The Backbone model object is extended to define the Hello model. It contains a default `place` property.
 
 ### Within the js/hello-view.js
-The Backbone view object is extended to define the Hello view. The Hello view grabs the defined JavaScript template within the index.html as the `hello-template` element. The Hello view takes the Hello model along with the template and compiles them into an HTML string via (Underscore's)[http://underscorejs.org/] templating. Finally, the stringified HTML is rendered within the DOM. 
+The Backbone view object is extended to define the Hello view. The Hello view creates stringified HTML with the `place` model property. The stringified HTML is rendered within the DOM. 
 
 ### Within the js/bootstrap.js
 The Backbone model is instantiated and handed to the Backbone view. The Backbone view is instantiated and rendered into the DOM.
 
 ### Within the index.html
 The index.html contains the Backbone application element, just a plain old HTML element. In this case a `<div id="app">`. 
-
-It also contains a JavaScript template `hello-template` that will is used by Underscore to dynamically update model data.
 
 ## Instructions
 1. Install [NodeJS](https://nodejs.org/)

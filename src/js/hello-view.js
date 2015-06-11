@@ -5,18 +5,13 @@
      */
     DI.App.HelloView = Backbone.View.extend({
 
-        //Utilizing Underscore to create a template
-        // that takes model properties
-        template: _.template($('#hello-template').html()),
-
         /**
          * Render the element via the template and model properties.
          */
         render: function() {
-            //Getting a copy of the model's attributes
-            var attributes = this.model.toJSON();
-            //Compile the template and model properties into an HTML string
-            var viewHTML = this.template(attributes);
+            //Create stringified HTML with a "place" model property
+            var viewHTML = '<h1>Hello ' + this.model.get('place') + '</h1>';
+
             //Placing/rendering the Views HTML into the root
             this.$el.html(viewHTML);
         }
