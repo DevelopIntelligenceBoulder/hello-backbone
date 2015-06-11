@@ -6,6 +6,7 @@
     DI.App.HelloView = Backbone.View.extend({
 
         //Utilizing Underscore to create a template
+        // that takes model properties
         template: _.template($('#hello-template').html()),
 
         /**
