@@ -1,7 +1,7 @@
 {
   "name": "hello-backbone",
-  "version": "0.0.1",
-  "description": "Backbone Hello World",
+  "version": "0.0.2",
+  "description": "Hello World in Backbone using Handlebars templates",
   "scripts": {
     "start": "node server.js",
     "prestart": "npm install"
