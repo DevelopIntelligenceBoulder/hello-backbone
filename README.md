@@ -26,5 +26,5 @@ The index.html contains the Backbone application element, just a plain old HTML 
     * The Node/Express Web Server will start
 3. Go to `http://localhost:8080/src/` in your web browser
 
-##Where to go from here?
+##Where to go from here? 
 [DevelopIntelligence](http://www.developintelligence.com/) offers a variety of [classes on JavaScript](http://www.developintelligence.com/catalog/web-development-training/core-javascript). Check out the [Backbone class](http://www.developintelligence.com/catalog/web-development-training/backbonejs/backbonejs) or the [Advanced JavaScript class](http://www.developintelligence.com/catalog/web-development-training/core-javascript/advanced-javascript) to get your team up to speed.
